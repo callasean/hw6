@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dollar Pizza</title>
+<script type="text/javascript" src="java.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Dollar Pizza</h1>
+<p>
+<h2>Type of Crust</h2>
+	<form>
+		<input type="radio" name="crust type" value="thin"> Thin<br>
+		<input type="radio" name="crust type" value="flatbread"> Flatbread<br>
+		<input type="radio" name="crust type" value="thicc"> Thick<br>
+		<input type="radio" name="crust type" value="regular"> Regular<br>
+		<input type="button" onclick="reset()" value="Reset">
+	</form>
+</p>
+
+<p>
+	<img src="pep.jpg"; height="100px"; width="100px">
+	Pepperoni
+<button onclick="myfunction()">Add One Portion</button>
+<button onclick="myfunction2()">Remove One Portion</button>
+<p id="pep">
+	Amount: $0
+</p>
+</p>
+
+<p>
+	<img src="jalap.jpg"; height="100px"; width="100px">
+	Jalapenõs
+<button onclick="myfunction3()">Add One Portion</button>
+<button onclick="myfunction4()">Remove One Portion</button>
+<p id="jalap">
+	Amount: $0
+</p>
+</p>
+
+<p>
+	<img src="onion.jpg"; height="100px"; width="100px">
+	Onions
+<button onclick="myfunction5()">Add One Portion</button>
+<button onclick="myfunction6()">Remove One Portion</button>
+<p id="onion">
+	Amount: $0
+</p>
+</p>
+<p>
+	<button onclick="total()">Total</button>
+	<button onclick="reset()">Clear</button>
+	<p id="total">
+		Total: $0
+	</p>
+</p>
+<hr>
+<p>
+  <form id="frm1">
+  Type your desired toppings in the text boxes below with commas between each one: 
+  <br>
+  <input type="text" name="topping1">
+  <input type="text" name="topping2">
+  <input type="text" name="topping3">
+  </form>
+  	<button onclick="order()">Order</button>
+  	<p id="demo"></p>
+</p>
+<p id="break">
+<br><br><br>
+</p>
+</body>
+</html>
